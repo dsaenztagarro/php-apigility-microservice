@@ -47,6 +47,7 @@
         "squizlabs/php_codesniffer": "2.*",
         "divi/pthreads-stub": "1.*",
         "aza/libevent": "1.*",
-        "ext-tokenizer": "*"
+        "ext-tokenizer": "*",
+        "ext-xdebug": "*"
     }
 }
