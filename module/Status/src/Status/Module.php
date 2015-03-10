@@ -20,4 +20,16 @@ class Module implements ApigilityProviderInterface
             ),
         );
     }
+
+    /**
+     * undocumented function
+     *
+     * @return void
+     */
+    public function fullname($name, $lastname)
+    {
+        return null;
+    }
 }
+
+

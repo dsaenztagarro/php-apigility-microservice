@@ -38,6 +38,15 @@
         "zendframework/zend-developer-tools": "dev-master",
         "zfcampus/zf-apigility-admin": "~1.0",
         "zfcampus/zf-apigility-welcome": "~1.0",
-        "zfcampus/zf-deploy": "~1.0"
+        "zfcampus/zf-deploy": "~1.0",
+        "phpmd/phpmd": "2.2.1",
+        "phpunit/phpunit": "4.5",
+        "phpunit/dbunit": "*",
+        "pdepend/pdepend": "2.0.6",
+        "phpdocumentor/phpdocumentor": "2.*",
+        "squizlabs/php_codesniffer": "2.*",
+        "divi/pthreads-stub": "1.*",
+        "aza/libevent": "1.*",
+        "ext-tokenizer": "*"
     }
 }
