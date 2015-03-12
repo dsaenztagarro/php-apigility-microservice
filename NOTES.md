@@ -1,13 +1,32 @@
 # Steps
 
-Step 1
+To enable development mode
 
-```shell
-php composer.phar require "zfcampus/statuslib-example:~1.0-dev"
+```
+cd path/to/install
+php public/index.php development enable
+```
+
+To disable development mode
+
+```
+cd path/to/install
+php public/index.php development disable
 ```
 
 # Authentication
 
 ```
 htpasswd -cs data/users.htpasswd david
+```
+
+# Debugging
+
+```
+# php.ini
+zend_extension = /usr/local/xdebug/xdebug.so
+xdebug.remote_enable=on
+xdebug.remote_handler=dbgp
+xdebug.remote_host=localhost
+xdebug.remote_port=9000
 ```
